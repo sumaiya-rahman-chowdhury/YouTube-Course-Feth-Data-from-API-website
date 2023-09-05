@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="text-center  mt-16 px-10">
+        <h1 class="text-3xl underline mb-5 font-bold">Discuss the scope of var, let, and const</h1>
+        <p class="text-xl font-bold"><span class="underline">scope of var :</span>  it has function-level scope.we can access them within the function  in which they are declared .variables are subject to hoisting, which means they are moved to the top of their containing function or global scope during compilation. This can sometimes lead to unexpected behavior.</p>
+        <p class="text-xl font-bold">
+           <span class="underline">let and const Scope :</span> 
+           We saw var has function level scope but Variables declared with let and const have block-level scope. This means they are only accessible within the block in which they are declared.
+        </p>
+        <h1 class="text-3xl underline mb-5 font-bold mt-5">
+            Tell us the use cases of null and undefined
+        </h1>
+        <p><span class="font-bold text-xl">undefined : </span>If a variable is declared but the value is not assigned, then the value of that variable will be undefined. For example,<br>
+            <span class="font-bold text-gray-400 ">let name; <br>
+                console.log(name); //output is :  undefined</span>
+        </p>
+        <p><span class="font-bold text-xl">null : </span>In JavaScript, null is a special value that represents an empty or unknown value. For example,<br>
+            <span class="font-bold text-gray-400 ">let number = null <br>
+               </span>
+               The code above suggests that the number variable is empty at the moment and may have a value later.
+        </p>
+        <!--  -->
+        <!--  -->
+        <h1 class="text-3xl underline mb-5 font-bold mt-5">
+            What do you mean by REST API?
+        </h1>
+        <p class="text-center">
+            API stands for Application Programming Interface. An API establishes a connection between programs so they can transfer data. <br>REST stands for REpresentational State Transfer .
+            A RESTful API is an architectural style for an application program interface (API) that uses HTTP requests to access and use data. That data can be used to GET, PUT, POST and DELETE data types, which refers to the reading, updating, creating and deleting of operations concerning resources. <br>We are able to communicate with servers using the HTTP protocol. With these protocols, we can Create, Read, Update and Delete data – otherwise known as CRUD operations. <br> 
+            <h3 class="underline font-bold mt-5">The most commonly used methods are:</h3>
+            <li>GET: The get method is used to Read data on the server.</li>
+            <li>POST: The post method is used to Create data.</li>
+            <li>PATCH/PUT: The patch method is used to Update data.</li>
+            <li>DELETE: The delete method is used to Delete data.</li>
+
+        </p>
+    </div>
+    
+</body>
+</html>
